@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: /-->/ jdbc:database_type://url
+    username: /-->/ user_name
+    password: /-->/ password
+    driver-class-name: /-->/ driver for database, add to packages from spring
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    database: /-->/ database_typ
